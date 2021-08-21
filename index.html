@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!--CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Mac Book Price Section -->
+    <section class="mac_book_wrapper">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="mac_book_img">
+              <img src="assets/images/mac.png" alt="" />
+            </div>
+          </div>
+          <!-- Mac Book Text -->
+          <div class="col-md-6">
+            <div class="mac_book_text_area">
+              <div class="mac_book_title">
+                <h2>Customize yoiur Blue 24-inch iMach Apple M1 chip.</h2>
+                <p>
+                  Apple M1 chip width 8-core CPU width 4 perfomance cores and 4
+                  effiencecy cores 7-core GPU and 16-core Nwural Engine 8GB
+                  unified memeory 256GB SSD storgage two thunderbolt / USB
+                  44ports Magic Mourse Magic keyboard . US English
+                </p>
+              </div>
+              <div class="button_area">
+                <h3>Memory</h3>
+                <button type="button" class="btn" id="memory8GB">
+                  8GB unified memory
+                </button>
+                <button type="button" class="btn" id="memory16GB">
+                  16GB unified memory
+                </button>
+              </div>
+              <div class="button_area">
+                <h3>Storage</h3>
+                <button type="button" class="btn" id="storage256GB">
+                  256GB SSD storage
+                </button>
+                <button type="button" class="btn" id="storage512GB">
+                  512GB SSD storage
+                </button>
+                <button type="button" class="btn" id="storage1TB">
+                  1TB SSD storage
+                </button>
+              </div>
+              <div class="button_area">
+                <h3>Choose your delivery option</h3>
+                <button type="button" class="btn" id="freeDelivery">
+                  Friday, Aug 25 FREE Prime Delivery
+                </button>
+                <button type="button" class="btn" id="coastDelivery">
+                  Friday, Aug 21 Delivery charge $20
+                </button>
+              </div>
+              <ul class="price_list_area">
+                <li>
+                  <p>Best Price</p>
+                  <p>$ <span>1299</span></p>
+                </li>
+                <li>
+                  <p>Extra Memory Coast</p>
+                  <p>$ <span id="memoryCoast">0</span></p>
+                </li>
+                <li>
+                  <p>Extra Storage Coast</p>
+                  <p>$ <span id="storageCoast">0</span></p>
+                </li>
+                <li class="delivery_list_items">
+                  <p>Delivery Charge</p>
+                  <p>$ <span id="deliveryCoast">0</span></p>
+                </li>
+                <li>
+                  <p>Total Price</p>
+                  <p>$ <span id="totalPrice">1299</span></p>
+                </li>
+              </ul>
+
+              <form class="coupen_area">
+                <label for=""> Add Pomo code </label> <br />
+                <input
+                  type="text"
+                  id="cuponInput"
+                  placeholder="Enter Your Coupon Code"
+                />
+                <button type="button" id="cuponButton">Apply</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center ">
+              <div class="inner_total_area">
+                <h3>Total: $<span id="innerTotalPrice2">1299</span></h3>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>

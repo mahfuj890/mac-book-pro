@@ -1,0 +1,115 @@
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+/* ========== Mac Book Price Section ========== */
+.mac_book_wrapper {
+  margin-top: 2rem;
+}
+.mac_book_wrapper .mac_book_img img {
+  width: 100%;
+  height: 42rem;
+}
+
+.mac_book_wrapper .mac_book_title h2 {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+.mac_book_wrapper .mac_book_title p {
+  font-size: 1.6rem;
+  padding-right: 10%;
+}
+.mac_book_wrapper .button_area {
+  margin-top: 3rem;
+}
+.mac_book_wrapper .button_area h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.mac_book_wrapper .button_area button {
+  border: 1px solid black;
+  font-size: 1.2rem;
+  padding: 0.5rem 2rem;
+  margin-top: 5px;
+}
+.mac_book_wrapper .button_area button:hover {
+  color: white;
+  background-color: black;
+}
+.mac_book_wrapper .price_list_area {
+  margin-top: 3rem;
+  padding-left: 0;
+  width: 50%;
+}
+.mac_book_wrapper .price_list_area li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2px 0;
+}
+.mac_book_wrapper .price_list_area li::before {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 105%;
+  height: 1px;
+  background-color: #d6d6d6;
+}
+.mac_book_wrapper .price_list_area li p {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.mac_book_wrapper .price_list_area .delivery_list_items::before {
+  height: 2px;
+  background-color: #000000;
+}
+
+.mac_book_wrapper .coupen_area label {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.mac_book_wrapper .coupen_area input {
+  font-size: 1.6rem;
+  border-radius: 5px;
+  padding: 0.5rem 0.8rem;
+}
+.mac_book_wrapper .coupen_area button {
+  font-size: 1.6rem;
+  padding: 0.5em 2rem;
+  border: none;
+  border-radius: 5px;
+  background: #e60de0;
+  color: white;
+}
+.mac_book_wrapper .coupen_area button:hover {
+  background: #e60ddfda;
+}
+
+.mac_book_wrapper .inner_total_area {
+    margin-top: 3rem;
+    position: relative;
+}
+.mac_book_wrapper .inner_total_area::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #d6d6d6;
+}
+.mac_book_wrapper .inner_total_area h3{
+    font-size: 2.2rem;
+    font-weight: 700;
+    padding-top: 1rem;
+}
